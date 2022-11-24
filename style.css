@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    margin: 15px;
+}
+nav{
+    width: 50%;
+    height: 50px;
+    background-color: yellow;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.home{
+    background-color: red;
+    height: 600px;
+}
+.box_main{
+        background-color: green;
+        width: 30%;
+        height: 60px;
+        position: relative;
+        top: 60px;
+        left: 250px;
+}
+.home .img{
+    background-color: violet;
+    width: 80%;
+    height: 450px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.para{
+    position: relative;
+    width: 220%;
+    height: 100px;
+    background-color: white;
+    top: 80px;
+}
+.button{
+    position: relative;
+    width: 40%;
+    height: 80px;
+    background-color: lightblue;
+    top: 110%;
+    left: 140px;
+}
+.about{
+    background-color: green;
+    height: 500px;
+ }
+ .about .main{
+    background-color:black;
+    width: 80%;
+    height: 450px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.box_main2{
+    background-color: gray;
+    width: 30%;
+    height: 80px;
+    position: relative;
+    top: -400px;
+    left: 40%;
+}
+ .image{
+    background-color:goldenrod;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -230px;
+    left: -250%;
+}
+.para2{
+    position: relative;
+    width: 120%;
+    height: 100px;
+    background-color: gray;
+    top: 80px;
+}
+.button2{
+    position: relative;
+    width: 40%;
+    height: 80px;
+    background-color: gray;
+    top: 110%;
+    left: 140px;
+}
+.ourfacility{
+    width: 100%;
+    height: 665px;
+    background-color: crimson;
+}
+.facility-main{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background-color: green;
+    left: 70px;
+    top: 25px;
+}
+.box{
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    background-color:white;
+    left: 70px;
+    top: 50px;
+}
+.facimg{
+    position: absolute;
+    width: 15%;
+    height: 40px;
+    background-color: aqua;
+    top: 10px;
+    left: 42%;
+    border-radius: 10px;
+}
+.h1{
+    position: absolute;
+    width: 25%;
+    height: 40px;
+    background-color: chocolate;
+    top: 60px;
+    left: 37%;
+    border-radius: 10px;
+}
+.box1{
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    background-color: white;
+    top: 30%;
+    left: 70px;
+
+}
+.rec1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    left: 30%;
+    top: 18%;
+}
+.rec2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    left: 10%;
+    top: 18%;
+}
+.rec3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    left: 50%;
+    top: 18%;
+}
+.rec4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    left: 70%;
+    top: 18%;
+}
+.facimg1{
+    position: absolute;
+    width: 40%;
+    height: 70px;
+    background-color: blue;
+    left: 29%;
+    top: 20px;
+    border-radius: 100px;
+}
+.head4{
+    position: absolute;
+    width: 70%;
+    height: 40px;
+    background-color: blueviolet;
+    top: 50%;
+    left: 15%;
+}
+.content3{
+    position: absolute;
+    width: 75%;
+    height: 40px;
+    background-color: papayawhip;
+    top: 75%;
+    left: 25px;
+}
+.menu{
+    width: 100%;
+    height: 900px;
+    background-color: violet;
+}
+.menu-main{
+    position: relative;
+    width: 70%;
+    height: 90%;
+    background-color: brown;
+    top: 30px;
+    left: 15%;
+}
+.box2{
+    position: absolute;
+    width: 92%;
+    height: 12%;
+    background-color: white;
+    left: 42px;
+    top: 20px;
+}
+.facimg2{
+    position: absolute;
+    width: 20%;
+    height: 30px;
+    background-color: aqua;
+    left: 40%;
+    top: 10px;
+    border-radius: 20px;
+}
+.head5{
+    position: absolute;
+    width: 30%;
+    height: 30px;
+    background-color: chocolate;
+    left: 35%;
+    top: 50px;
+    border-radius: 20px;
+}
+.box3{
+    position: absolute;
+    width: 92%;
+    height: 75%;
+    background-color: white;
+    left: 42px;
+    top: 17%;
+}
+.circle1{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    background-color: yellow;
+    left: 70px;
+    top: 30px;
+}
+.cap1{
+    position: absolute;
+    width: 12%;
+    height: 25px;
+    background-color: gray;
+    left: 95px;
+    top: 32%;
+    border-radius: 10px;
+}
+.circle2{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    background-color: yellow;
+    left: 40%;
+    top: 30px;
+}
+.cap2{
+    position: absolute;
+    width: 12%;
+    height: 25px;
+    background-color: gray;
+    left: 43%;
+    top: 32%;
+    border-radius: 10px;
+}
+.circle3{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    background-color: yellow;
+    left: 70%;
+    top: 30px;
+}
+.cap3{
+    position: absolute;
+    width: 12%;
+    height: 25px;
+    background-color: gray;
+    left: 73%;
+    top: 32%;
+    border-radius: 10px;
+}.circle4{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    background-color: yellow;
+    left: 70px;
+    top: 45%;
+}
+.cap4{
+    position: absolute;
+    width: 12%;
+    height: 25px;
+    background-color: gray;
+    left: 95px;
+    top: 72%;
+    border-radius: 10px;
+}.circle5{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    background-color: yellow;
+    left: 40%;
+    top: 45%;
+}
+.cap5{
+    position: absolute;
+    width: 12%;
+    height: 25px;
+    background-color: gray;
+    left: 43%;
+    top: 72%;
+    border-radius: 10px;
+}.circle6{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    background-color: yellow;
+    left: 70%;
+    top: 45%;
+}
+.cap6{
+    position: absolute;
+    width: 12%;
+    height: 25px;
+    background-color: gray;
+    left: 73%;
+    top: 72%;
+    border-radius: 10px;
+}
+.ourgallery{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-color: red;
+}
+.gallery-main{
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    background-color: silver;
+    left: 10%;
+    top: 5%;
+}
+.box4{
+    position: absolute;
+    width: 85%;
+    height: 15%;
+    background-color: white;
+    left: 8%;
+    top: 5%;
+}
+.facimg3{
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    background-color: aqua;
+    left: 40%;
+    top: 10%;
+}
+.head6{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: chocolate;
+    left: 35%;
+    top: 45%;
+}
+.box5{
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    background-color: white;
+    left: 8%;
+    top: 22%;
+}
+.gal1{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: blue;
+        left: 5%;
+        top: 5%;
+    }
+    .gal2{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: blue;
+        left: 38%;
+        top: 5%;
+    }
+    .gal3{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: blue;
+        left: 70%;
+        top: 5%;
+    }
+    .gal4{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: blue;
+        left: 5%;
+        top: 50%;
+    }
+    .gal5{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: blue;
+        left: 38%;
+        top: 50%;
+    }
+    .gal6{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: blue;
+        left: 70%;
+        top: 50%;
+    } 
+    .ourteam{
+        position: relative;
+        width: 100%;
+        height: 150vh;
+        background-color: chartreuse;
+    }
+    .team-main{
+        position: absolute;
+        width: 80%;
+        height: 90%;
+        background-color: brown;
+        left: 10%;
+        top: 5%;
+    }
+    .box6{
+        position: absolute;
+        width: 85%;
+        height: 15%;
+        background-color: white;
+        left: 8%;
+        top: 5%;
+    }
+    .box7{
+        position: absolute;
+        width: 85%;
+        height: 70%;
+        background-color: white;
+        left: 8%;
+        top: 22%;
+    }
+    .facimg4{
+        position: absolute;
+        width: 20%;
+        height: 25%;
+        background-color: black;
+        left: 40%;
+        top: 10%;
+    }
+    .head7{
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        background-color: chocolate;
+        left: 35%;
+        top: 45%;
+    }
+    .m1{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: red;
+        left: 5%;
+        top: 5%;
+    }
+    .n1{
+        position: absolute;
+        width: 12%;
+        height: 5%;
+        background-color: blue;
+        left: 11%;
+        top: 38%;
+    }
+    .m2{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: red;
+        left: 38%;
+        top: 5%;
+    }
+    .n2{
+        position: absolute;
+        width: 12%;
+        height: 5%;
+        background-color: blue;
+        left: 44%;
+        top: 38%;
+    }
+    .m3{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: red;
+        left: 70%;
+        top: 5%;
+    }
+    .n3{
+        position: absolute;
+        width: 12%;
+        height: 5%;
+        background-color: blue;
+        left: 76%;
+        top: 38%;
+    }
+    .m4{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: red;
+        left: 5%;
+        top: 50%;
+    }
+    .n4{
+        position: absolute;
+        width: 12%;
+        height: 5%;
+        background-color: blue;
+        left: 11%;
+        top: 83%;
+    }
+    .m5{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: red;
+        left: 38%;
+        top: 50%;
+    }
+    .n5{
+        position: absolute;
+        width: 12%;
+        height: 5%;
+        background-color: blue;
+        left: 44%;
+        top: 83%;
+    }
+    .m6{
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        background-color: red;
+        left: 70%;
+        top: 50%;
+    }
+    .n6{
+        position: absolute;
+        width: 12%;
+        height: 5%;
+        background-color: blue;
+        left: 76%;
+        top: 83%;
+    }
+    .contactus{
+        position: relative;
+        width: 100%;
+        height: 150vh;
+        background-color: gray;
+    }
+    .contact-main{
+        position: absolute;
+        width: 80%;
+        height: 90%;
+        background-color: brown;
+        left: 10%;
+        top: 5%;
+    }
+    .box8{
+        position: absolute;
+        width: 85%;
+        height: 15%;
+        background-color: white;
+        left: 8%;
+        top: 5%;
+    }
+    .box9{
+        position: absolute;
+        width: 85%;
+        height: 70%;
+        background-color: white;
+        left: 8%;
+        top: 22%;
+    }
+    .facimg5{
+        
+            position: absolute;
+            width: 20%;
+            height: 25%;
+            background-color: skyblue;
+            left: 40%;
+            top: 10%;
+        }
+        .head8{
+            position: absolute;
+            width: 30%;
+            height: 30%;
+            background-color: darkblue;
+            left: 35%;
+            top: 45%;
+        }
+        .facimg6{
+            position: absolute;
+            width: 40%;
+            height: 60%;
+            background-color: purple;
+            left: 10%;
+            top: 19%;
+        }
+        .formtable{
+            position: absolute;
+            width: 40%;
+            height: 60%;
+            background-color: skyblue;
+            left: 51%;
+            top: 19%;
+        }
+        .footer{
+            position: relative;
+            height: 80vh;
+            width: 100%;
+            background-color:coral;
+          }
+          
+          .footer-main{
+            position: absolute;
+            height: 85%;
+            width: 90%;
+            background-color: brown;
+            left: 5%; 
+            top: 10%;
+          }
+          
+          .box10{
+            position: absolute;
+            width: 90%;
+            height: 60%;
+            background-color: white;
+            left:5% ;
+            top: 5%;
+          }
+          
+          .add1{
+            position: absolute;
+            width: 20%;
+            height:75%;
+            background-color: purple;
+            left: 4%;
+            top: 12%;
+          }
+          
+          .add2{
+            position: absolute;
+            width: 20%;
+            height:75%;
+            background-color: purple;
+            left: 28%;
+            top: 12%;
+          }
+          
+          .add3{
+            position: absolute;
+            width: 20%;
+            height:75%;
+            background-color: purple;
+            left:52%;
+            top: 12%;
+          }
+          
+          .add4{
+            position: absolute;
+            width: 20%;
+            height:75%;
+            background-color: purple;
+            left:76%;
+            top: 12%;
+          }
+          
+          .box11{
+            position: absolute;
+            width: 90%;
+            height: 30%;
+            background-color: white;
+            top: 66%;
+            left: 5%;
+          }
+          
+          .copyrights{
+            position: absolute;
+            width: 70%;
+            height: 50%;
+            background-color: blue;
+            top: 23%;
+            left: 15%;
+          }
+          
+          .icon{
+            position: absolute;
+            width: 30%;
+            height: 30%;
+            background-color: white;
+            top: 5%;
+            left: 32%;
+            border-radius: 30px;
+          }
+          
+          .head9{
+            position: absolute;
+            width: 50%;
+            height:20% ;
+            background-color: aqua;
+            top: 40%;
+            left: 22%;
+            border-radius: 10px;
+          }
+          
+          .para1{
+              position: absolute;
+              width: 65%;
+              height: 20%;
+              background-color: blue;
+              top:65%;
+              left: 15%;
+              border-radius: 10px;
+          }
+          
+          .icon1{
+            position: absolute;
+            width: 30%;
+            height: 30%;
+            background-color: white;
+            top: 5%;
+            left: 32%;
+            border-radius: 40px;
+          }
+          
+         
